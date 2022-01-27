@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
 	color: #171719;
 	background-color: #666;
@@ -20,19 +28,22 @@ h1 {
 }
 
 .grid {
-	border: 2px solid white;
-	border-radius: 1 rem;
-	width: 60rem;
-	height: 60rem;
-	background-color: white;
+	border: 2px solid #a8dadc;
+	border-radius: 1rem;
+	width: 70rem;
+	height: 70rem;
 	position: relative;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-}
+	background-color: white;
+  }
 
 .box {
   border: 0.5px solid rgba(0, 0, 0, 0.05);
   border-radius: 0.5rem;
-  background-color: turquoise;
 }
+
+.box.active {
+	background-color: turquoise;
+  }
