@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	color: #171719;
+	background-color: #666;
+	font-size: 1.6rem;
+}
+
+h1 {
+	color: salmon;
+	text-align: center;
+	font-size: 4rem;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	padding: 0 2vw;
+	display: flex;
+	justify-content: center;
+}
+
+.grid {
+	border: 2px solid #white;
+	border-radius: 1 rem;
+	width: 60rem;
+	height: 60rem;
+	background-color: white;
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
