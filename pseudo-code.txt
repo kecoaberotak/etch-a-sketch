@@ -1,0 +1,3 @@
+- membuat div penampung grid di html
+- fungsi membuat grid, membuat grid (div) sesuai yg ditentukan melalui javascript
+- fungsi membuat grid 
