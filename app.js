@@ -1,5 +1,5 @@
 const grid = document.querySelector('.grid');
-let squareSize = 8;
+let squareSize = 16;
 
 createGrid(squareSize);
 
