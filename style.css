@@ -1,23 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-	color: #171719;
-	background-color: #666;
-	font-size: 1.6rem;
-}
-
-h1 {
-	color: salmon;
-	text-align: center;
-	font-size: 4rem;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -25,7 +8,7 @@ h1 {
 	padding: 0 2vw;
 	display: flex;
 	justify-content: center;
-}
+  }
 
 .grid {
 	border: 2px solid #a8dadc;
@@ -36,14 +19,8 @@ h1 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	background-color: white;
   }
 
 .box {
-  border: 0.5px solid rgba(0, 0, 0, 0.05);
-  border-radius: 0.5rem;
+	border: 1px solid black;
 }
-
-.box.active {
-	background-color: turquoise;
-  }
