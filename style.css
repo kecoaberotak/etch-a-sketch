@@ -29,6 +29,20 @@ h1 {
 	justify-content: center;
   }
 
+  .setting {
+	display: flex;
+	align-items: center;
+  }
+
+  .setting-option {
+	background-color: #a8dadc;
+	text-align: center;
+  }
+
+  .setting-option h2 {
+	  font-size: 3rem;
+  }
+
 .grid {
 	border: 2px solid #a8dadc;
 	border-radius: 1rem;
